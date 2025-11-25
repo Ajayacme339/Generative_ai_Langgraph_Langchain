@@ -21,7 +21,7 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 # Streamlit UI
-st.title("Langchain Demo with Gemma Model")
+st.title("Langchain GenAIapp Powered with Gemma Model")
 text_input = st.text_input("What questions would you like to ask?")
 
 # LLM
@@ -37,3 +37,4 @@ chain = prompt | llm | parser
 if text_input:
     result = chain.invoke({"question": text_input})
     st.write(result)
+
