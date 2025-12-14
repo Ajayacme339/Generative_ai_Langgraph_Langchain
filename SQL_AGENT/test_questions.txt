@@ -1,0 +1,13 @@
+Which Album is sold most?
+Which genere on an average has longest track
+Which Country has maxium number of Artist?
+Which country has generated the most total sales revenue?
+Who are the top 5 customers by total purchase amount?
+Which artist has the most albums in the database?
+What are the top 3 most popular music genres by number of tracks sold?
+What is the average track length in minutes for each genre?
+Which employee has the highest total sales from their customers?
+How many tracks are in the longest playlist?
+What is the total revenue generated in 2021?
+
+python -m  streamlit run app_m.py
